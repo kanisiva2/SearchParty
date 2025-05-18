@@ -102,7 +102,7 @@ export default function PartyInfo() {
               });
               await AsyncStorage.removeItem('lastPartyId');
               Alert.alert('Success', 'You have left the party.');
-              router.replace('/home');
+              router.replace('/Home');
             } catch (error) {
               console.error('Error leaving party:', error);
               Alert.alert('Error', 'Could not leave the party.');

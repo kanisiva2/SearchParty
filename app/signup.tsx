@@ -25,7 +25,7 @@ const SignUp = () => {
           location_sharing: locationSharing
         });
 
-        router.replace('/home'); // Navigate to main app screen
+        router.replace('/Home'); // Navigate to main app screen
       }
     } catch (error: any) {
       console.error(error);
