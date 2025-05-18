@@ -6,13 +6,13 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Search Party App</Text>
+      <Text style={styles.title}>Search Party</Text>
 
-      <TouchableOpacity style={styles.button} onPress={() => router.push('/joinParty')}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push('/Join Party')}>
         <Text style={styles.buttonText}>Join a Party</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} onPress={() => router.push('/createParty')}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push('/Create Party')}>
         <Text style={styles.buttonText}>Create a New Party</Text>
       </TouchableOpacity>
     </View>

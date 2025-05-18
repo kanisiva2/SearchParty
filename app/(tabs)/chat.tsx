@@ -21,16 +21,11 @@ export default function TabTwoScreen() {
   // Automatically sign in anonymously if not signed in already
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (usr) => {
-      if (usr) {
-        setUser(usr);
-      } else {
-        signInAnonymously(auth).catch((error) =>
-          console.error('Anonymous sign-in failed:', error)
-        );
-      }
+      setUser(usr);
     });
     return unsubscribe;
   }, []);
+
 
   // Subscribe to chat messages when a user is available
   useEffect(() => {

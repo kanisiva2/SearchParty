@@ -33,7 +33,7 @@ export default function TabLayout() {
           title: 'Search',
           tabBarIcon: ({ color }) => <TabBarIcon name="map" color={color} />,
           headerRight: () => (
-            <Link href="/settings" asChild>
+            <Link href="/Settings" asChild>
               <Pressable>
                 {({ pressed }) => (
                   <AntDesign
@@ -55,7 +55,7 @@ export default function TabLayout() {
           title: 'HeatMap',
           tabBarIcon: ({ color }) => <TabBarIcon name="map" color={color} />,
           headerRight: () => (
-            <Link href="/settings" asChild>
+            <Link href="/Settings" asChild>
               <Pressable>
                 {({ pressed }) => (
                   <AntDesign
@@ -77,7 +77,7 @@ export default function TabLayout() {
           title: 'Chat',
           tabBarIcon: ({ color }) => <TabBarIcon name="comments" color={color} />,
           headerRight: () => (
-            <Link href="/settings" asChild>
+            <Link href="/Settings" asChild>
               <Pressable>
                 {({ pressed }) => (
                   <AntDesign
@@ -99,7 +99,7 @@ export default function TabLayout() {
           title: 'Party Settings',
           tabBarIcon: ({ color }) => <TabBarIcon name="cog" color={color} />,
           headerRight: () => (
-            <Link href="/settings" asChild>
+            <Link href="/Settings" asChild>
               <Pressable>
                 {({ pressed }) => (
                   <AntDesign

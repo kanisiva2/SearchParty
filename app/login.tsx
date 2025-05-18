@@ -13,7 +13,7 @@ const index = () => {
   const signIn = async () => {
     try {
       const user = await signInWithEmailAndPassword(auth, email, password)
-      if (user) router.replace('/home');
+      if (user) router.replace('/Home');
     } catch (error: any) {
       console.log(error)
       //alert('Sign in failed: ' + error.message);
